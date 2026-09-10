@@ -34,7 +34,11 @@
           <main class="content">
             <p class="eyebrow">FOUNDATION TRACK · PWA PRACTICAL</p>
             <div class="hero-grid">
-              <div><h1>Keep learning when the network leaves.</h1><p class="lede">Create a note, refresh the page, then test the same experience with the network turned off. This small project demonstrates the core PWA building blocks from the workshop.</p><div class="concept-row"><span>React UI</span><span>localStorage</span><span>Manifest</span><span>Service worker</span></div></div>
+              <div><h1>Keep learning when the network leaves.</h1><br>
+              <h2>Tsado Isaiah Yetu</h2>
+              <h2>Telecommunication Engineering Department</h2>
+              <h2>2024/1/97637CM</h2>
+              <p class="lede">Create a note, refresh the page, then test the same experience with the network turned off. This small project demonstrates the core PWA building blocks from the workshop.</p><div class="concept-row"><span>React UI</span><span>localStorage</span><span>Manifest</span><span>Service worker</span></div></div>
               <div class="signal-card"><span class="signal-kicker">LIVE TEST SIGNAL</span><strong>${online ? "NETWORK AVAILABLE":"NETWORK OFFLINE"}</strong><p>${online ? "Your browser can reach the network. Reload once to make the offline boundary easy to test." : "The interface should still load because the application shell was cached by the service worker."}</p></div>
             </div>
             <section class="columns">
